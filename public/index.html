@@ -1,0 +1,75 @@
+<html>
+
+<head>
+
+  <title>INX Comms</title>
+
+  <link rel="stylesheet" href="/index.css">
+  <link href='https://fonts.googleapis.com/css?family=Anonymous Pro' rel='stylesheet'>
+
+  <!-- import the webpage's client-side javascript file -->
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+    var socket = io();
+  </script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="./index.js"></script>
+  <!--   <script src="./Comms/clientMsgs.js"></script>
+  <script src="./Comms/startup.js"></script>
+  <script src="./Comms/codeMode.js"></script>
+  <script src="./Comms/sockets.js"></script>
+  <script src="./Comms/msg.js"></script>
+  <script src="./Comms/commands/helpCommand.js"></script>
+  <script src="./Comms/commands/renameCommand.js"></script>
+  <script src="./Comms/commands/clearCommand.js"></script>
+  <script src="./Comms/commands/adminCommand.js"></script>
+  <script src="./Comms/typing.js"></script>
+  <script src="./Comms/function.js"></script> -->
+</head>
+
+<body>
+  <header>
+    <h1 id="headerh1">INX Terminal</h1>
+  </header>
+  <div id="outerFrame">
+    <!--       <p style="color:white; margin-top: 1%; margin-bottom: 1%; margin-left:0.5%">INX Comms</p> -->
+    <!-- <div id="windowFrame"></div> -->
+
+    <div id="servers">
+      <h3>Servers</h3>
+    </div>
+
+    <div class = innerFrame id="innerFrame1">
+      <div id="holder">
+      </div>
+
+
+      <div id='messageInputBox'>
+        <div class="preMsg" id='uN' style="float:left">></div>
+        <input type="text" class="inputy" id="messageInput">
+      </div>
+
+    </div>
+
+    <div class="innerFrame" id="innerFrame2">
+      <div id="holder2">
+
+      </div>
+      <div id="typeBox" hidden style="width:100%;height:fit-content;">
+        <span id="typeFormatter"></span>
+        <span style="color:lime;margin-left:5px;">is typing...</span>
+      </div>
+    </div>
+
+    <div id="online">
+      <h3>Online Users</h3>
+      <img src="INX Gclear.png" id="INXPic">
+    </div>
+
+  </div>
+
+
+
+</body>
+
+</html>

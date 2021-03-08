@@ -1,0 +1,107 @@
+* {
+  margin: 0px;
+  color: rgb(0, 202, 0);
+  font-family: 'Anonymous Pro';
+}
+
+body {
+  background-color: #252525;
+  font-family: 'Anonymous Pro';
+  margin: 0px;
+  font-size: 17px;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+  height: 5%;
+  text-align: center;
+}
+
+#headerh1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%, -50%);
+}
+
+#outerFrame {
+  position: relative;
+  top: 5%;
+  height: 95%;
+  width: 100%;
+  background-color: black;
+  float: left
+}
+
+#servers {
+  float: left;
+  text-align: center;
+  position: relative;
+  width: calc(10% - 10px);
+  height: calc(100% - 10px);
+  background-color: #1b1b1b;
+  padding: 5px;
+}
+
+#online {
+  float: right;
+  text-align: center;
+  position: relative;
+  width: calc(10% - 10px);
+  height: calc(100% - 10px);
+  background-color: #1b1b1b;
+  padding: 5px;
+}
+
+.innerFrame {
+  float: left;
+  width: calc(40% - 1px);
+  height: 100%;
+}
+
+#innerFrame1 {
+  border-right: 1px solid rgb(0, 202, 0);
+}
+
+#innerFrame2 {
+  border-left: 1px solid rgb(0, 202, 0);
+}
+
+#INXPic {
+  position: fixed;
+  width: initial;
+  height: 150px;
+  top: 100%;
+  transform: translate(-50%, -100%);
+}
+
+#uN {
+  float: left;
+  height: 100%;
+  margin-right: 10px;
+  width: fit-content;
+  font-size: 17px;
+  margin-left: 5px;
+}
+
+#messageInputBox {
+  width: 100%;
+  height: 20px;
+  color: lime;
+  font-size: 20px;
+  float: left;
+}
+
+#messageInput {
+  position: relative;
+  bottom: 0px;
+  width: calc(100% - 24.26px);
+  height: 100%;
+  background-color: black;
+  border: none;
+  font-size: 17px;
+  color: lime;
+  outline: none;
+  padding: 0px;
+}
